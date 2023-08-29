@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 1140px; 
+    margin: 10px auto;
+    /* background-color: transparent; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 390px;
+    padding: 10px;
+    margin:  10px auto;
+    border-radius: 10px;
+    background-color: #73368f;
+    /* 6f4477 5f2d76*/
+    justify-content: space-between;
+    box-shadow: 3px 3px 8px #5a0835;
+}
+
+
+.pic {
+    margin: 0 auto;
+    max-width: 340px;
+    border-radius: 15px;
+    height: 220px;
+}
+
+.pic img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+h2{
+    color: #10afdc;
+    text-align: center;
+}
+
+.authur-info {
+    color: #0e96bc;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.content {
+    text-align: center;
+    font-size: medium;
+    font-weight: 1000;
+    color: #aecfd8;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action button {
+    background-color: #f76b00;
+    /* eb5c00 */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.spinner {
+    margin: 0 auto;
+    /* Size */
+    height: 4rem;
+    width: 4rem;
+
+    /* Create a curve at the top */
+    border: 4px solid #ac4a08;
+    border-top-color: #ae83b9;
+    border-radius: 50%;
+
+    animation: spinner 800ms linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

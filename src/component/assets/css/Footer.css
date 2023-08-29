@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    width: 1140px;
+    border-radius: 8px;
+    padding:30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #411f51;
+}
+
+.item hr {
+    border: 1px solid #5f2d76;
+    width: 100%;
+}
+
+.item {
+    color: #e7d5ef;
+    width: 220px;
+}
+
+.item ul {
+    list-style: none;
+}
+
+.item ul li {
+    margin: 20px 0;
+}
+
+.item ul li a {
+    color: #e7d5ef;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Social Icons */
+
+.git,
+.linkedin,
+.facebook,
+.twitter{
+    scale: 1.6;
+}
+
+
+
+/*? **** hover effect ******/
+
+.git:hover,
+.linkedin:hover,
+.facebook:hover,
+.twitter:hover{
+    scale: 2;
+    font-size: x-large;
+    border-radius: 20px;
+    color: #a918ec;
+}
+
+

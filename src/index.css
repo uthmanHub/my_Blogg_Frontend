@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #5f2d76;  /* 7d3b9b */
+  font-family: 'Archivo', 'Inter', 'Roboto', sans-serif;
+  object-fit: contain;
+}
